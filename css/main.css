@@ -148,7 +148,7 @@ ul, li{
 	background-image: linear-gradient(to top, #eb6f38 0%, #eb5238 100%);
 }
 .submit:focus{
-
+	outline: none;
 }
 .form-notice{
 	font-size: 14px;

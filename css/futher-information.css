@@ -1,3 +1,10 @@
+.futher-information-wrapper{
+	background-image: url("../img/illustrations/illustration.png");
+	background-repeat: no-repeat;
+	background-position: left 100px;
+	padding-top: 105px;
+	padding-bottom: 65px;
+}
 .futher-information-content{
 	width: 555px;
 	margin-left: auto;
