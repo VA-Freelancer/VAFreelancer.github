@@ -33,6 +33,7 @@ ul, li{
 	-o-flex-direction: row;
 	flex-direction: row;
 	align-items: center;
+	margin-bottom: 25px;
 }
 .input{
 	width: 293px;
@@ -53,6 +54,9 @@ ul, li{
 	margin-right: 25px;
 
 
+}
+.form-label{
+	cursor: pointer;
 }
 /* color for placeholder */
 ::-webkit-input-placeholder{
@@ -77,13 +81,48 @@ ul, li{
 	outline: none;
 }
 .checkbox{
+	display: none;
+}
 
+.checkbox-fake{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	box-shadow: 2px 2px 0 rgba(14, 15, 33, 0.07);
+	border: 1px solid rgba(194, 194, 194, 0.4);
+	border-radius: 20px;
+	background-color: #ffffff;
+	position: relative;
+}
+.checkbox-fake:after{
+	content: '';
+	border-radius: 8px;
+	display: block;
+	width: 0px;
+	height: 0px;
+	background-color: #eb5238;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-webkit-transition: 0.2s ease-in;
+		-ms-transition: 0.2s ease-in;
+		 -o-transition: 0.2s ease-in;
+			transition: 0.2s ease-in;
+}
+.checkbox:checked + .checkbox-fake::after{
+	width: 11px;
+	height: 11px;
 }
 .checkbox-description{
 	color: #0d3e60;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 30px;
+	display: inline-block;
+	vertical-align: middle;
 	
 }
 .checkbox-description a{
@@ -103,6 +142,7 @@ ul, li{
 	background-image: linear-gradient(to top, #eb5238 0%, #eb6f38 100%);
 	border: none;
 	cursor: pointer;
+	margin-right: 27px;
 }
 .submit:hover{
 	background-image: linear-gradient(to top, #eb6f38 0%, #eb5238 100%);
