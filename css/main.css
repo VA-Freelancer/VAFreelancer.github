@@ -13,3 +13,64 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
+ul, li{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.form{
+
+}
+.input{
+	width: 293px;
+	height: 51px;
+	border-radius: 19px;
+	background-color: #fff9df;
+	background-image: linear-gradient(to top, #fff9df 0%, #fffdf4 100%);
+	border: none;
+	outline: none;
+	font-family: 'Poppins', sans-serif;
+	color: #2e435e;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1;
+	padding-left: 26px;
+	padding-right: 26px;
+	padding-top: 5px;
+
+
+}
+/* color for placeholder */
+::-webkit-input-placeholder{
+	color:#2e435e;
+	opacity: 1;
+}
+::-moz-placeholder{
+	color:#2e435e;
+	opacity: 1;
+}
+:-moz-placeholder{
+	color:#2e435e;
+	opacity: 1;
+}
+:-ms-input-placeholder{
+	color:#2e435e;
+	opacity: 1;
+}
+
+
+.input:focus{
+	outline: none;
+}
+.checkbox{
+
+}
+.checkbox-description{
+
+}
+.submit{
+
+}
+.form-notice{
+
+}
