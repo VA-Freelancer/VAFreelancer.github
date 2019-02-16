@@ -1,15 +1,43 @@
+.about-wrapper{
+	position: relative;
+	overflow: hidden;
+	padding-top: 65px;
+}
+.about-wrapper:after{
+	position: absolute;
+	right: -180px;
+	top: 100px;
+	content: "";
+	width: 612px;
+	height: 518px;
+	display: block;
+	background-image: url("../img/illustrations/shape-3.svg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	z-index: -1;
+}
 .about-cards {
 	width: 488px;
-	height: 200px;
-	background-color: red;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
 }
 .about-content {
 	width: 550px;
-	height: 200px;
 	color: #0d3e60;
 	font-size: 22px;
 	font-weight: 300;
 	line-height: 36px;
+}
+.class-1-column{
+	
+}
+.class-2-column{
+	padding-top: 150px;
+
 }
 .about-content p{
 	margin-bottom: 36px;
@@ -20,6 +48,7 @@
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	margin-bottom: 90px;
 }
 .about__toggle {
 	width: 165px;
@@ -33,6 +62,7 @@
 	font-weight: 400;
 	line-height: 46px;
 	margin-right: 20px;
+	text-align: center;
 	text-decoration: none;
 	cursor: pointer;
 	-webkit-transition: 0.2s ease-in;
@@ -48,4 +78,5 @@
 }
 .title-special {
 	color: #eb5238;
+	margin-bottom: 65px;
 }

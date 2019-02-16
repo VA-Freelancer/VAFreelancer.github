@@ -8,6 +8,13 @@ body{
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
 }
+p{
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+a{
+	text-decoration: none;
+}
 .container{
 	width: 1140px;
 	margin-left: auto;
@@ -20,6 +27,14 @@ body{
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
+}
+.title-2{
+	color: #0d3e60;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-top: 0;
+	margin-bottom: 35px;
 }
 ul, li{
 	padding: 0;
@@ -151,6 +166,10 @@ ul, li{
 	border: none;
 	cursor: pointer;
 	margin-right: 27px;
+	-webkit-transition: 0.2s ease-in;
+		-ms-transition: 0.2s ease-in;
+		 -o-transition: 0.2s ease-in;
+			transition: 0.2s ease-in;
 }
 .submit:hover{
 	background-image: linear-gradient(to top, #eb6f38 0%, #eb5238 100%);
