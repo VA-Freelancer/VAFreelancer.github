@@ -1,17 +1,17 @@
-.header{
-	width: 100%;
-	position: relative;
-	padding-top: 30px;
-	padding-bottom: 410px;
-	background-color: #fffef9;
-	background-image: 
-		url("../img/illustrations/illustration-header.png"),
-		linear-gradient(to top, #ffffff 0%, #fff9df 100%);
-	background-repeat: no-repeat;
-	background-position: center bottom, top left;
-	-webkit-background-size: 100% auto;
-	background-size: 100% auto;
-
+.header {
+    width: 100%;
+    position: relative;
+    /*height: 1195px;*/
+    padding-top: 92px;
+    background-color: red;
+    background-color: #fffef9;
+    padding-bottom: 410px;
+    background-image:
+        url(../img/illustrations/illustration-header.png),
+        linear-gradient(to top, #ffffff 0%, #fff9df 100%);
+    background-repeat: no-repeat;
+    background-position: center bottom, top left;
+    background-size: 100% auto;
 }
 
 
@@ -60,8 +60,8 @@
 .cloud-1{
 	position: absolute;
 	top: 300px;
-	background-image: url("../img/header/cloud-
-	left: -15px;1.svg");
+	left: -15px;
+	background-image: url("../img/header/cloud-1.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 118px;
