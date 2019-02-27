@@ -1,18 +1,19 @@
-.header{
-	width: 100%;
-	position: relative;
-	padding-top: 30px;
-	padding-bottom: 410px;
-	background-color: #fffef9;
-	background-image: 
-		url(../img/illustrations/illustration-header.png),
-		linear-gradient(to top, #ffffff 0%, #fff9df 100%);
-	background-repeat: no-repeat;
-	background-position: center bottom, top left;
-	-webkit-background-size: 100% auto;
-	background-size: 100% auto;
-
+.header {
+    width: 100%;
+    position: relative;
+    /*height: 1195px;*/
+    padding-top: 92px;
+    background-color: red;
+    background-color: #fffef9;
+    padding-bottom: 410px;
+    background-image:
+        url(../img/illustrations/illustration-header.png),
+        linear-gradient(to top, #ffffff 0%, #fff9df 100%);
+    background-repeat: no-repeat;
+    background-position: center bottom, top left;
+    background-size: 100% auto;
 }
+
 
 
 @media(min-width: 1140px){
@@ -27,11 +28,54 @@
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	margin-bottom: 23px;
+	position: relative;
+	
+	
+	
+}
+@media (min-width: 1140px){
+	.logo-wrapper{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 	justify-content: space-between;
 	-ms-align-items: flex-end;
 	align-items: flex-end;
 	margin-bottom: 23px;
 	position: relative;
+	padding: 0;
+	}
+}
+.cloud-1{
+	position: absolute;
+	top: 300px;
+	left: -15px;
+	background-image: url("../img/header/cloud-1.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 118px;
+	height: 77px;
+}
+.cloud-2{
+	position: absolute;
+	top: 263px;
+	right: -21px;
+	background-image: url("../img/header/cloud-2.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 86px;
+	height: 49px;
 }
 .tagline{
 	color: #0d3e60;
@@ -246,7 +290,7 @@
 }
 .link-circle{
 	position: absolute;
-	bottom: 0;
+	bottom: -55%;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);

@@ -22,6 +22,7 @@ a{
 	margin-right: auto;
 	padding-right: 15px;
 	padding-left: 15px;
+	position: relative;
 }
 @media(min-width: 1140px){
     .container{
