@@ -1,1 +1,1 @@
-# learnwedding.github.io
+# Сайт из моей практики. Адаптивный. Создан через препроцессор SCSS, с помощью сборщика GULP. В проекте применены OwlCarousel.js, JQuery, Flexbox верстка и Grid верстка
